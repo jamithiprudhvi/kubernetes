@@ -8,6 +8,6 @@ WORKDIR /var/www/html/
 RUN cp -rvf photogenic/*
 RUN rm -rf photogenic 
 CMD ["usr/sbin/https", "-D", "FOREGROUND"]
-EXPOSE 80 
+EXPOSE 80 22
 
 
